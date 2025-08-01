@@ -1,0 +1,19 @@
+@use '../abstracts/variables' as *;
+
+body {
+    font-family: $font-ptimary;
+    font-size: $font-size-base;
+    font-weight: $font-weight-medium;
+    color: $light-black;
+}
+
+nav a {
+    &:hover {
+        font-weight: $link-hover-font-weight;
+    }
+}
+
+.promo__text {
+    font-size: $font-size-large;
+    color: $black;
+}

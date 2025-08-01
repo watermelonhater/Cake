@@ -1,0 +1,19 @@
+.header {
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        padding: 18px 0 45px 0;
+    }
+
+    &__nav-list {
+        display: flex;
+        gap: 0 77px;
+    }
+
+    &__icons {
+        display: flex;
+        gap: 0 23px;
+    }
+}

@@ -1,15 +1,94 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app" class="app">
-      <div class="app__child"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SweetyByYou</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="header__logo-link">
+          <img src="/src/images/header/logo.png" alt="" class="header__logo-img">
+        </a>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">
+                Home
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">
+                About
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">
+                learn
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">
+                Order
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__icons">
+          <a href="#" class="header__icon">
+            <img src="/src/images/header/search.svg" alt="search" class="header__icon-img">
+          </a>
+          <a href="#" class="header__icon">
+            <img src="/src/images/header/cart.svg" alt="cart" class="header__icon-img">
+          </a>
+          <a href="#" class="header__icon">
+            <img src="/src/images/header/user.svg" alt="user" class="header__icon-img">
+          </a>
+        </div>
+      </div>
     </div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+  </header>
+  <main class="main">
+    <div class="container">
+      <section class="promo">
+        <div class="promo__banner">
+          <div class="promo__logo">
+            <img src="src/images/main/logo.svg" alt="logotype">
+          </div>
+          <p class="promo__text">
+            Unlock the art of cake baking with our step-by-step tutorials and videos, and choose from our store's
+            exquisite selection or customize your perfect cake.
+          </p>
+          <div class="promo__actions">
+            <button type="button" class="btn__promo">
+              Read More
+            </button>
+            <button type="button" class="btn__promo">
+              Order Now
+            </button>
+          </div>
+        </div>
+        <div class="promo__decor">
+          <div class="promo__img-blur">
+            <img src="/src/images/main/promo-cake.png" alt="cake image">
+          </div>
+          <!-- <div class="promo__img">
+            <img src="/src/images/main/promo-cake.png" alt="cake image">
+          </div> -->
+        </div>
+      </section>
+    </div>
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>
