@@ -1,7 +1,13 @@
+@use '../abstracts/variables' as *;
+
 .btn__promo{
     padding: 17px 45px;
     background-color: transparent;
-    border: 2px solid #223322;
+    border: 2px solid $light-black;
     border-radius: 59px;
-    font-size: $font-size-large;
+
+    &:hover {
+        background-color: $hover-btn-bgc;
+        border-color: $hover-btn-bgc;
+    }
 }

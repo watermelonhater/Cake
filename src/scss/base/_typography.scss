@@ -13,7 +13,19 @@ nav a {
     }
 }
 
-.promo__text {
-    font-size: $font-size-large;
-    color: $black;
+.promo { 
+
+    &__text {
+        font-size: $font-size-large;
+        color: $black;
+    }
+}
+
+.btn__promo {
+    font-size: $font-size-btn;
+    color: $light-black;
+
+    &:hover {
+        color: $hover-btn-color;
+    }
 }
