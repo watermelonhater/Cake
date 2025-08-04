@@ -1,10 +1,21 @@
 $font-ptimary: 'Plus Jakarta Sans', sans-serif !default;
 $font-size-base: 18px !default;
 $font-size-large: 31px;
-$font-size-btn: 20px;
+$font-size-medium: 20px;
 $hover-btn-color: #fff;
 $hover-btn-bgc: rgba(255, 0, 101, .75);
 $light-black: #223322 !default;
 $black: #000;
 $font-weight-medium: 500;
 $link-hover-font-weight: 700;  
+
+
+// стили для карточек
+
+$font-card-btn: 'ABeeZee', sans-serif;
+$font-weight-card-btn: 400;
+$font-size-btn: 20px;
+$font-size-h3-product-card: 24px;
+$product-card-bgc-color: #D9D9D9;
+$product-card-bgc-color-hover: #000;
+$text-color-hover: #fff;
